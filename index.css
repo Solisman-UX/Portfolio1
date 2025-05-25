@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+:root {
+--font_color: #FFFFFFCC;
+--size_work: 1.3rem;
+--button_color: #000000;
+--padding_nav: 10px;
+
+}
+body {
+    font-family: inter, airal;
+}
+.nav_section {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding_nav)
+}
